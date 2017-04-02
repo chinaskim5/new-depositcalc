@@ -29,7 +29,7 @@ if (sum < 100000 ) {
 }
 
 int conditions(int sum, int time){
-if ( sum < 1000 && time > 365) {
+if ( sum < 1000 && time > 365 ) {
 	printf("The minimum deposit amount in 1000\nThe term does not exceed 365 days\n");
 	return 0;
 	
@@ -42,10 +42,8 @@ if ( sum < 1000 && time > 365) {
     if (time > 365) {
 	printf("The term does not exceed 365 days\n");
 	return 0;
-	}
-    if (time <= 0 ){
-	printf("The term does not amount 1");
-	return 0;
+	
     }
+	
     return 1;
 }
