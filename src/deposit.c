@@ -44,6 +44,9 @@ if ( sum < 1000 && time > 365 ) {
 	return 0;
 	
     }
-	
+    if (time < 1){
+	printf("The term does not below 1 day\n");
+	return 0;
+    }	
     return 1;
 }
